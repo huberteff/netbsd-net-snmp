@@ -1,4 +1,11 @@
 This git repository to whack pkgsrc/net/net-snmp into shape
-before committing again
+before committing to pkgsrc again.
+
+To get going:
+
+cd .../pkgsrc/net/net-snmp
+git init
+git pull git@github.com:yourgithublogin/netbsd-net-snmp.git
+
 
  - Hubert Feyrer <hubertf@gmx.de>
