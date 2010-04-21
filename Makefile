@@ -69,7 +69,7 @@ CONFIGURE_ARGS+=	--with-persistent-directory=${NET_SNMP_PERSISTENTDIR}
 CONFIGURE_ARGS+=	--with-mibdirs=${NET_SNMP_MIBDIRS:Q}
 .endif
 .if ${OPSYS} == "NetBSD"
-CONFIGURE_ARGS+=	--with-mib-modules="smux host ucd-snmp/diskio mibII/kernel_netbsd"
+CONFIGURE_ARGS+=	--with-mib-modules="smux host ucd-snmp/diskio"
 .else
 CONFIGURE_ARGS+=	--with-mib-modules="smux host"
 .endif
